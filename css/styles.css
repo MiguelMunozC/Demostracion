@@ -1,0 +1,119 @@
+/*html {*/
+    /*min-height: 100%;*/
+    /*position: relative;*/
+/*}*/
+/*body {*/
+    /*margin: 0;*/
+    /*margin-bottom: 40px;*/
+/*}*/
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.contenido{
+}
+
+.centro{
+    margin-bottom: 20px;
+}
+.descripcion{
+    margin: 25px 0px;
+}
+
+.side{
+    background-color: #f4f5f7;
+    height: 100%;
+    padding: 1px 15px;
+}
+.side-pasos{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+    min-height: 75px;
+
+}
+.side-paso1 {
+    background-color: #d3fe66;
+}
+.side-paso2{
+    background-color: #79c942;
+}
+.side-paso3{
+    background-color: #34aa5c;
+}
+.side-pasos div{
+    height: 100%;
+    text-align: center;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+}
+.side-icono{
+    color: #fff;
+    width: 25%;
+    display: inline-block;
+    float: left;
+    position: absolute;
+}
+.side-icono i{
+
+}
+.side-text{
+    display: inline-block;
+    width: 60%;
+    padding: 10px 15px;
+    margin-left: 25%;
+}
+.side-text p{
+    text-align: left;
+}
+.side-narrow{
+    position: absolute;
+    display: inline-block;
+    float: right;
+    width: 15%;
+}
+.side-narrow i:hover{
+    color: #9ba3ac;
+}
+.side-narrow i{
+    color: #78828c;
+}
+.side-pasos div i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    font-size: 40px;
+}
+
+.footer{
+    background-color: #32353a;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    width: 100%;
+}
+
+.footer-cont{
+    color: #78828c;
+}
+
+.footer-titulo{
+    color: #fefefe;
+    padding: 5% 0%;
+}
+.footer-cont div{
+    padding: 5% 0%;
+}
+
+a{
+    color: #33a95d;
+}
+a:hover{
+    color: #33714a;
+}
