@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Demostración</title>
+    <link rel="stylesheet" href="node_modules/material-design-icons/iconfont/material-icons.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="node_modules/material-design-icons/iconfont/material-icons.css">
 
 </head>
 <body>
-
+    <!--NAVBAR-->
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -18,67 +19,68 @@
                     <img alt="Lirmi" src="...">
                 </a>
             </div>
-            <div class="navbar-right">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><!--<img src="img/wsp.png" alt=""/>--><a href="../navbar/">+56 452 408860</a></li>
+            <div class="nav navbar-right">
+                    <img class="nav-wsp" src="img/wsp.png" alt=""/><a href="">+56 452 408860</a>
                     <button type="button" class="btn btn-default navbar-btn ">Salir</button>
-                </ul>
             </div>
 
         </div>
     </nav>
 
-
+    <!--CONTENEDOR PRINCIPAL-->
     <div class="contenido container">
 
         <div class="row">
-
+            <!--CONTENEDOR CENTRAL-->
             <div class="centro col-md-8">
                 <h1>Demostración general de Lirmi</h1>
                 <p class="descripcion">Con lirmi.com estamos facilitando el trabajo de miles de profesores y jefes técnicos en las areas más relevantes del proceso educativo.</p>
 
+                <!--VIDEO-->
                 <div>
                     <div class="embed-responsive embed-responsive-16by9">
                         <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=CMX2lPum_pg"></iframe>-->
                         <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/kZw-jgCRPeE" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-
             </div>
 
+            <!--SIDEBAR-->
             <div class="side col-md-4">
-                <h3>Siguientes pasos</h3>
-                <div class="side-pasos">
-                    <div class="side-icono side-paso1">
-                        <i class="material-icons">playlist_add_check</i>
+                <div>
+                    <h3>Siguientes pasos</h3>
+                    <div class="side-pasos">
+                        <div class="side-icono side-paso1">
+                            <i class="material-icons">playlist_add_check</i>
+                        </div>
+                        <div class="side-text">
+                            <p>Vea todas las opciones y obtenga una prueba gratuita</p>
+                        </div>
+                        <div class="side-narrow">
+                            <a href=""><i class="material-icons">keyboard_arrow_right</i></a>
+                        </div>
                     </div>
-                    <div class="side-text">
-                        <p>Vea todas las opciones y obtenga una prueba gratuita</p>
+                    <div class="side-pasos">
+                        <div class="side-icono side-paso2">
+                            <i class="material-icons">voice_chat</i>
+                        </div>
+                        <div class="side-text">
+                            <p>Conéctese directamente con cualquiera de nuestros expertos en curriculum</p>
+                        </div>
+                        <div class="side-narrow">
+                            <a href=""><i class="material-icons">keyboard_arrow_right</i></a>
+                        </div>
                     </div>
-                    <div class="side-narrow">
-                        <a href=""><i class="material-icons">keyboard_arrow_right</i></a>
-                    </div>
-                </div>
-                <div class="side-pasos">
-                    <div class="side-icono side-paso2">
-                        <i class="material-icons">voice_chat</i>
-                    </div>
-                    <div class="side-text">
-                        <p>Conéctese directamente con cualquiera de nuestros expertos en curriculum</p>
-                    </div>
-                    <div class="side-narrow">
-                        <a href=""><i class="material-icons">keyboard_arrow_right</i></a>
-                    </div>
-                </div>
-                <div class="side-pasos">
-                    <div class="side-icono side-paso3">
-                        <i class="material-icons">book</i>
-                    </div>
-                    <div class="side-text">
-                        <p>Conozca todo, desde el uso de sus herramientas y nuestra filosofía de trabajo</p>
-                    </div>
-                    <div class="side-narrow">
-                        <a href=""><i class="material-icons">keyboard_arrow_right</i></a>
+                    <div class="side-pasos">
+                        <div class="side-icono side-paso3">
+                            <i class="material-icons">book</i>
+                        </div>
+                        <div class="side-text">
+                            <p>Conozca todo, desde el uso de sus herramientas y nuestra filosofía de trabajo</p>
+                        </div>
+                        <div class="side-narrow">
+                            <a href=""><i class="material-icons">keyboard_arrow_right</i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,13 +89,13 @@
 
     </div>
 
-
+    <!--FOOTER-->
     <footer class="footer">
         <div class="container">
 
             <div class="row">
 
-                <div class="footer-cont col-md-3 col-sm-6">
+                <div class="footer-cont col-sm-6 col-md-3">
                     <h4 class="footer-titulo">Lirmi.com</h4>
                     <div>
                         <p>En Lirmi creemos profundamente en el profesor y estamos convencidos
@@ -101,7 +103,7 @@
                         Cómo no creer esto, si somos profesores y nos mueve el mismo sueño.</p>
                     </div>
                 </div>
-                <div class="footer-cont col-md-3 col-sm-6">
+                <div class="footer-cont col-sm-6 col-md-3">
                     <h4 class="footer-titulo">Conócenos</h4>
                     <div>
                         <ul class="list-unstyled">
@@ -111,7 +113,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-cont col-md-3 col-sm-6">
+
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="footer-cont col-sm-6 col-md-3">
                     <h4 class="footer-titulo">Herramientas</h4>
                     <div>
                         <ul class="list-unstyled">
@@ -122,7 +127,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-cont col-md-3 col-sm-6">
+                <div class="footer-cont col-sm-6 col-md-3">
                     <h4 class="footer-titulo">Contáctanos</h4>
                     <div>
                         <address>
@@ -150,5 +155,7 @@
     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
