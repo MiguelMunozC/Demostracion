@@ -11,6 +11,10 @@
 .navbar{
     margin-bottom: 0px;
 }
+
+.logo-lirmi{
+    width: 72px;
+}
 .nav a{
     color: #333;
     margin: 0 20px 0 10px;
@@ -33,6 +37,83 @@
 .descripcion{
     margin: 25px 0px;
 }
+
+/*VIDEO Y LISTA*/
+.lista-reproduccion{
+    border: 1px solid #c6c6c6;
+    padding: 10px 15px 0 15px;
+}
+.video-link{
+    padding: 10px;
+    cursor: pointer;
+}
+.video-link:hover{
+    background-color: #d1fcad;
+}
+/*.video-link:enabled{*/
+    /*background-color: red;*/
+/*}*/
+.btn-play{
+    color: #ff6801;
+}
+.btn-play:hover{
+    color: #d55500;
+}
+
+
+
+.video-link i{
+    float: left;
+}
+.video-link a{
+    margin-left: 6%;
+}
+.video-link span{
+    float: right;
+}
+
+
+
+
+/*.vid-list-container {*/
+    /*width: 92%;*/
+    /*overflow: hidden;*/
+    /*margin-top: 20px;*/
+    /*margin-left:4%;*/
+    /*padding-bottom: 20px;*/
+/*}*/
+
+/*.vid-list {*/
+    /*width: 1344px;*/
+    /*!*position: relative;*!*/
+    /*top:0;*/
+    /*left: 0;*/
+/*}*/
+/*.vid-item {*/
+    /*display: block;*/
+    /*width: 148px;*/
+    /*height: 148px;*/
+    /*float: left;*/
+    /*margin: 0;*/
+    /*padding: 10px;*/
+/*}*/
+
+/*.vid-item .desc {*/
+    /*color: #21A1D2;*/
+    /*font-size: 15px;*/
+    /*margin-top:5px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
 
 /*SIDEBAR*/
 .side{
@@ -121,12 +202,21 @@
 .footer-cont div{
     padding: 15px 0%;
 }
+.footer-contact{
+    display: -webkit-box;
+;
+}
+.footer-icono{
+    width: 20px;
+    margin-right: 10px;
+}
 
 a{
     color: #33a95d;
 }
 a:hover{
     color: #33714a;
+    text-decoration: none;
 }
 
 @media (max-width:992px) {

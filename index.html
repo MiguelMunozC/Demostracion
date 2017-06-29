@@ -16,7 +16,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <img alt="Lirmi" src="...">
+                    <img class="logo-lirmi" alt="Lirmi" src="img/logo-lirmi.png">
                 </a>
             </div>
             <div class="nav navbar-right">
@@ -38,10 +38,42 @@
 
                 <!--VIDEO-->
                 <div>
+                    <!--<div id="video-principal" class="embed-responsive embed-responsive-16by9">-->
+                        <!--&lt;!&ndash;<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=CMX2lPum_pg"></iframe>&ndash;&gt;-->
+                        <!--<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnlgVUv2dVsoFTSpzMV3nNfKbGPGhg4BN" frameborder="0" allowfullscreen></iframe>-->
+                    <!--</div>-->
+
+                    <!--REPRODUCTOR-->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=CMX2lPum_pg"></iframe>-->
-                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/kZw-jgCRPeE" frameborder="0" allowfullscreen></iframe>
+                        <iframe id="vid_frame" src="https://www.youtube.com/embed/icYRFRXQIyM" width="560" height="315" frameborder="0"></iframe>
                     </div>
+
+                    <!--LISTA DE REPRODUCCION-->
+                    <div class="lista-reproduccion">
+                        <ul class="list-unstyled">
+
+                            <li id="video-link-id1" class="video-link" onClick="verVideo(0)">
+                                <i class="material-icons btn-play">play_circle_filled</i>
+                                <a href="#" class="vid-item" >Video 1</a>
+                                <span>55:55</span>
+                            </li>
+
+                            <li id="video-link-id2" class="video-link" onClick="verVideo(1)">
+                                <i class="material-icons btn-play">play_circle_filled</i>
+                                <a href="#" class="vid-item" >Video 2</a>
+                                <span>55:55</span>
+                            </li>
+
+                            <li id="video-link-id3" class="video-link" onClick="verVideo(2)">
+                                <i class="material-icons btn-play">play_circle_filled</i>
+                                <a href="#" class="vid-item" >Video 3</a>
+                                <span>55:55</span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
                 </div>
             </div>
 
@@ -130,21 +162,34 @@
                 <div class="footer-cont col-sm-6 col-md-3">
                     <h4 class="footer-titulo">Contáctanos</h4>
                     <div>
-                        <address>
-                            Catalayud 251<br>
-                            Temuco, Chile<br>
-                        </address>
-                        <address>
-                            1305 Franklin Street,<br>
-                            #2250, Oakland,<br>
-                            California, EEUU<br>
-                        </address>
-                        <address>
-                            +56 452 408860
-                        </address>
-                        <address>
-                            <a href="mailto:#">colegios@lirmi.com</a>
-                        </address>
+                        <div class="footer-contact">
+                            <img class="footer-icono" src="img/cl.png" alt="">
+                            <address>
+                                Catalayud 251<br>
+                                Temuco, Chile<br>
+                            </address>
+                        </div>
+
+                        <div class="footer-contact">
+                            <img class="footer-icono" src="img/usa.png" alt="">
+                            <address>
+                                1305 Franklin Street,<br>
+                                #2250, Oakland,<br>
+                                California, EEUU<br>
+                            </address>
+                        </div>
+                        <div class="footer-contact">
+                            <img class="footer-icono" src="img/wsp.png" alt="">
+                            <address>
+                                +56 452 408860
+                            </address>
+                        </div>
+                        <div class="footer-contact">
+                            <i class="material-icons footer-icono">mail_outline</i>
+                            <address>
+                                <a href="mailto:#">colegios@lirmi.com</a>
+                            </address>
+                        </div>
 
                     </div>
                 </div>
@@ -154,8 +199,10 @@
         </div>
     </footer>
 
+    <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 </html>
