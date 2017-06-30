@@ -1,7 +1,7 @@
-/*html {*/
-    /*min-height: 100%;*/
+html {
+    min-height: 100%;
     /*position: relative;*/
-/*}*/
+}
 /*body {*/
     /*margin: 0;*/
     /*margin-bottom: 40px;*/
@@ -119,7 +119,7 @@
 .side{
     background-color: #f4f5f7;
     height: 100vh;
-    padding: 1px 15px;
+    padding: 10px 15px;
 }
 .side-pasos{
     background-color: #ffffff;
