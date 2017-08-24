@@ -1,9 +1,6 @@
 html {
     min-height: 100%;
 }
-hr{
-    display: none;
-}
 a, p, h1, h2, h3, h4, h5, h6{
     font-family: 'Open Sans';
 }
@@ -126,6 +123,9 @@ a:hover{
 
 
 /*SIDEBAR*/
+#hr-side{
+    display: none;
+}
 .side{
     position: absolute;
     right:0;
@@ -139,6 +139,9 @@ a:hover{
     border-radius: 5px;
     position: relative;
     min-height: 75px;
+}
+.side-pasos a{
+    border-radius: inherit;
 }
 .side-paso1 {
     background-color: #d3fe66;
@@ -230,7 +233,7 @@ a:hover{
         padding-right: 5%;
         padding-left: 5%;
     }
-    hr{
+    #hr-side{
         display: block;
         margin: 0;
         border-top: 2px solid #eee;
