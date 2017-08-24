@@ -1,7 +1,8 @@
 var videos = [
-  'https://www.youtube.com/embed/icYRFRXQIyM',
-  'https://www.youtube.com/embed/0AvuweztG4Q',
-  'https://www.youtube.com/embed/8yn3ViE6mhY'
+  'https://www.youtube.com/embed/7Kj1TdmA0GQ',
+  'https://www.youtube.com/embed/51_pr-8xtho',
+  'https://www.youtube.com/embed/IT-LGj9N1oo',
+  'https://www.youtube.com/embed/33p-_JiZw8o'
 ];
 
 
@@ -24,6 +25,6 @@ function verVideo(vid){
   var link = document.getElementById('video-link-id'+(vid+1));
   link.setAttribute("style", 'background-color: #d1fcad;');
 
-  link.getElementsByTagName("I")[0].innerHTML = "pause_circle_outline";
+  link.getElementsByTagName("I")[0].innerHTML = "play_circle_outline";
 
 }
