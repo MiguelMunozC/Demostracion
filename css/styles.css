@@ -1,11 +1,30 @@
 html {
     min-height: 100%;
-    /*position: relative;*/
 }
-/*body {*/
-    /*margin: 0;*/
-    /*margin-bottom: 40px;*/
-/*}*/
+hr{
+    display: none;
+}
+a, p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans';
+}
+h1{
+    color: #32353A;
+    font-size: 28pt;
+    font-weight: bolder;
+}
+p{
+    color: #444A51;
+    font-size: 12pt;
+    line-height: 160%;
+}
+a{
+    color: #33a95d;
+}
+a:hover{
+    color: #33714a;
+    text-decoration: none;
+}
+
 
 /*NAVBAR*/
 .navbar{
@@ -28,6 +47,9 @@ html {
 
 /*CONTENEDOR PRINCIPAL*/
 .contenido{
+}
+.contenido .row{
+    position: relative;
 }
 
 /*CENTRO*/
@@ -73,8 +95,6 @@ html {
 }
 
 
-
-
 /*.vid-list-container {*/
     /*width: 92%;*/
     /*overflow: hidden;*/
@@ -105,21 +125,13 @@ html {
 /*}*/
 
 
-
-
-
-
-
-
-
-
-
-
 /*SIDEBAR*/
 .side{
+    position: absolute;
+    right:0;
     background-color: #f4f5f7;
-    height: 100vh;
-    padding: 10px 15px;
+    height: 100%;
+    padding: 10px 30px 30px 30px;
 }
 .side-pasos{
     background-color: #ffffff;
@@ -188,41 +200,42 @@ html {
 /*FOOTER*/
 .footer{
     background-color: #32353a;
-    /*position: absolute;*/
-    /*bottom: 0;*/
     width: 100%;
 }
-.footer-cont{
+.footer-cont, .footer-cont p{
     color: #78828c;
+}
+.footer-cont p{
+    padding-right: 10%;
 }
 .footer-titulo{
     color: #fefefe;
-    padding: 15px 0% 0px 0%;
+    padding: 15px 0 0 0;
 }
 .footer-cont div{
-    padding: 15px 0%;
+    padding: 15px 0;
 }
 .footer-contact{
     display: -webkit-box;
-;
 }
 .footer-icono{
     width: 20px;
     margin-right: 10px;
 }
 
-a{
-    color: #33a95d;
-}
-a:hover{
-    color: #33714a;
-    text-decoration: none;
-}
 
 @media (max-width:992px) {
     .side{
-        height: 100%;
-        padding: 1px 20px;
-        padding-bottom: 15px;
+        position: static;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    hr{
+        display: block;
+        margin: 0;
+        border-top: 2px solid #eee;
+        position: absolute;
+        width: 200vw;
+        left: -17%;
     }
 }
